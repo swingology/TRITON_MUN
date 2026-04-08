@@ -1,0 +1,292 @@
+{
+  "main": {
+    "id": "f176fc08d600bbe9",
+    "type": "split",
+    "children": [
+      {
+        "id": "915ab3d4714732a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ca97c3fac87ca70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "background_summary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "background_summary"
+            }
+          },
+          {
+            "id": "81d11b776833eb8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Committee Topics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Committee Topics"
+            }
+          },
+          {
+            "id": "df4e04ae8d0ed774",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Committee Resources.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Committee Resources"
+            }
+          },
+          {
+            "id": "cf743311f76300df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Committee Topics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Committee Topics"
+            }
+          },
+          {
+            "id": "2331253c328cab5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Committee Topics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Committee Topics"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "648c69faae8cc29d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84a34016209f0a15",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Clippings/background-committee/Unesco-background.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Unesco-background"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bb9f92f4a4c093de",
+    "type": "split",
+    "children": [
+      {
+        "id": "36633411ef9a55f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86caf19276e4c072",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cbb533bec9a4dae0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ea7e313bb9aef560",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fca8e94f5ff0db24",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2ee6d6c1864c28a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d601347e99f03318",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Committee Topics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Committee Topics"
+            }
+          },
+          {
+            "id": "4ef7510f1df6588c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Committee Topics.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Committee Topics"
+            }
+          },
+          {
+            "id": "103474caac074c2d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cc4e4d3ae094b1e8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e459c2ef8ac9d064",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Committee Topics.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Committee Topics"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2331253c328cab5f",
+  "lastOpenFiles": [
+    "Unesco Questions.md",
+    "Clippings/background-committee/Unesco-background.pdf",
+    "Committee Topics.md",
+    "Clippings/background-committee/UNEP-background.pdf",
+    "Clippings/background-committee/TritonMUN+XXXI+UNEP.pdf",
+    "background_summary.md",
+    "MD/background-committee/Unesco-background.md",
+    "MD/specialized-committee/WHO_Antimicrobial_Resistance.md",
+    "MD/specialized-committee/Rebuild_Notre_Dame.md",
+    "MD/specialized-committee/Cool_Britannia_Britpop.md",
+    "MD/specialized-committee/SCOTUS_Youngstown.md",
+    "MD/crisis-committee/Whoville-crisis.md",
+    "MD/crisis-committee/Percy_Jackson-crisis.md",
+    "MD/crisis-committee/Japan_Unification_Conflict-crisis.md",
+    "MD/Crisis_Guide.md",
+    "MD/Logistics_Packet.md",
+    "MD/Rules_of_Procedure-Guide.md",
+    "MD/specialized-committee",
+    "MD/crisis-committee",
+    "MD/background-committee",
+    "MD",
+    "Clippings/specialized-committee/Cool_Britannia_Britpop.pdf",
+    "Clippings/specialized-committee/WHO_Antimicrobial_Resistance.pdf",
+    "Clippings/specialized-committee/SCOTUS_Youngstown.pdf",
+    "Clippings/Position Papers.md",
+    "TOC.md",
+    "Pasted image 20260408113303.png",
+    "Committee Resources.md"
+  ]
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.wiki.ingest</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/jb/OBS_CLAUDE_SKILL/.claude/tools/ingest-queue.sh</string>
+  </array>
+
+  <!-- Run every 30 minutes -->
+  <key>StartInterval</key>
+  <integer>1800</integer>
+
+  <!-- Also run at login -->
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/wiki-ingest.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/tmp/wiki-ingest.err</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>WIKI_ROOT</key>
+    <string>/Users/jb/OBS_CLAUDE_SKILL</string>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <!-- Set your Anthropic API key here if ingest.sh needs it -->
+    <!-- <key>ANTHROPIC_API_KEY</key> -->
+    <!-- <string>sk-ant-...</string> -->
+  </dict>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/jb/OBS_CLAUDE_SKILL</string>
+</dict>
+</plist>

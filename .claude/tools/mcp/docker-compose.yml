@@ -1,0 +1,10 @@
+services:
+  wiki-mcp:
+    build: .
+    image: wiki-tools-mcp:latest
+    stdin_open: true   # required for stdio MCP transport
+    tty: false
+    volumes:
+      - /Users/jb/OBS_CLAUDE_SKILL:/wiki:rw
+    environment:
+      WIKI_ROOT: /wiki

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.wiki.watcher</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/jb/OBS_CLAUDE_SKILL/.claude/tools/watcher-mac.sh</string>
+  </array>
+
+  <!-- Restart automatically if it crashes -->
+  <key>KeepAlive</key>
+  <true/>
+
+  <!-- Start at login -->
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/wiki-watcher.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/tmp/wiki-watcher.err</string>
+
+  <!-- Environment: set WIKI_ROOT so the script can find itself if called from outside the repo -->
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>WIKI_ROOT</key>
+    <string>/Users/jb/OBS_CLAUDE_SKILL</string>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/jb/OBS_CLAUDE_SKILL</string>
+</dict>
+</plist>
